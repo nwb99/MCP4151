@@ -18,7 +18,7 @@ public:
     MCP4151(const int& CS, const int& MOSI, const int& MISO, const int& SCK);
 
     void writeValue(const int& value);
-    const int getCurValue();
+    int getCurValue();
 
 private:
     volatile unsigned char MSb;

@@ -57,7 +57,7 @@ void MCP4151::writeValue(const int& value) {
     SPI.endTransaction();
 }
 
-const int MCP4151::getCurValue() {
+int MCP4151::getCurValue() {
     SPI.beginTransaction(SPISettings(speedR, MSBFIRST, spimode));
     digitalWrite(CSpin, LOW);
     
