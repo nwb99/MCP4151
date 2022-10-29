@@ -1,4 +1,9 @@
-#include <Arduino.h>
+/*
+ * Example program that fades LED on and off, as if it were "breathing".
+ * (c) 2022 Nathan "nwb99" Barnett
+ * MIT License
+*/
+
 #include <MCP4151.h>
 
 #define CS     10
