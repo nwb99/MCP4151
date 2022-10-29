@@ -10,7 +10,7 @@ On the MCP4151, the MISO and MOSI are on the same pin. Use a 1 kOhm resistor to 
 on the chip to GND, with the MOSI line (on the MOSI pin of the Arduino) in series with the resistor.
 There's another constructor that accepts more parameters if one needs more customization.  
 
-Import it into your project with `#include "MCP4151.h"`.  
+Import it into your project with `#include <MCP4151.h>`.  
 
 ---
 

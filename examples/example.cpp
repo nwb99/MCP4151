@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "MCP4151.h"
+#include <MCP4151.h>
 
 #define CS     10
 #define MOSI   11

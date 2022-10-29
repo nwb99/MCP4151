@@ -1,6 +1,6 @@
 /*
  * MCP4151 Library for Arduino
- * v0.1
+ * v1.0
  * MIT License
  * (c) 2022 Nathan "nwb99" Barnett
  */
